@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://images.pexels.com/photos/159618/still-life-school-retro-ink-159618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Stylish', sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center; 
+}
+
+button {
+  background-color: #69abce;
+  padding: 10px 15px;
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+#start_stop {
+  width: 80px;
+}
+
+#reset {
+  width: 80px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pomodoro-clock-timer-container {
+  margin: -50px 20px 20px;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 25px;
+  border: 1px solid transparent;
+  
+  border-top-color: rgba(255, 255, 255, 0.5);
+  border-left-color: rgba(255, 255, 255, 0.5);
+  border-right-color: rgba(255, 255, 255, 0.1);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+  
+  backdrop-filter: blur(1rem);
+  
+  background-color: rgba(255,255,255,0.1);
+  box-shadow: 1.3rem 1.3rem 1.3rem rgba(0,0,0,0.5);
+}
+
+pomodoro-clock-timer-container h2 {
+  margin: 0;
+}
+
+.wrapper-for-buttons span {
+  font-size: 40px;
+  margin: 0 10px;
+  width: 50px;
+  border: 1px solid transparent;
+  
+  border-top-color: rgba(255, 255, 255, 0.5);
+  border-left-color: rgba(255, 255, 255, 0.5);
+  border-right-color: rgba(255, 255, 255, 0.1);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+  
+  backdrop-filter: blur(1rem);
+  
+  background-color: rgba(255,255,255,0.1);
+  box-shadow: 1.3rem 1.3rem 1.3rem rgba(0,0,0,0.5);
+}
+
+.pomodoro-clock-container {
+  border: 1px solid transparent;
+  
+  border-top-color: rgba(255, 255, 255, 0.5);
+  border-left-color: rgba(255, 255, 255, 0.5);
+  border-right-color: rgba(255, 255, 255, 0.1);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+  
+  backdrop-filter: blur(1rem);
+  border-radius: 10px;
+  padding: 10px 100px;
+  display: inline-block;
+  margin-top: 20px;
+
+  background-color: rgba(255,255,255,0.1);
+  box-shadow: 1.3rem 1.3rem 1.3rem rgba(0,0,0,0.5);
+  width: 550px;
+}
+
+.pomodoro-clock-container h1 {
+  margin: 0;
+}
+
+.pomodoro-clock-container span {
+  font-size: 50px;
+}
+
+#clock-logo-fontawesome {
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+#timer-label {
+  margin-top: 5px;
+}
+
+#time-left {
+  font-size: 80px;
+  font-weight: bolder;
+  background-color: #3C412C;
+  border-radius: 15px;
+  padding: 10px
+}
+
+span {
+  font-weight: bolder;
+}
+
+.zoom {
+  transition: transform .2s;
+  
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+#header-span-id {
+  font-size: 25px;
+  border: 2px solid blue;
+  border-radius: 12px;
+  padding: 5px;
+}
